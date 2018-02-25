@@ -4,6 +4,7 @@
 export ARCH=arm
 export PATH=$(pwd)/../PLATFORM/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin:$PATH
 export CROSS_COMPILE=arm-eabi-
+export SPEEDY_KERNEL_VERSION=0
 
 mkdir output
 
